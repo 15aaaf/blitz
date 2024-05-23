@@ -1,0 +1,45 @@
+.footer-container {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+}
+.footer-max-width {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+.footer-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-heading1 {
+  text-align: center;
+  font-family: "Poppins";
+}
+.footer-content1 {
+  text-align: center;
+  font-family: "Poppins";
+}
+.footer-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.footer-button {
+  text-decoration: none;
+  background-color: transparent;
+}
+.footer-root-class-name {
+  fill: black;
+  color: black;
+}
