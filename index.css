@@ -1,0 +1,341 @@
+.main-faq7 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.main-text {
+  fill: white;
+  color: white;
+  font-family: "Poppins";
+}
+.main-image {
+  width: 636px;
+  height: 287px;
+  object-fit: cover;
+}
+.main-max-width {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main-section-title {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+.main-list-item1 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-faq1-question {
+  fill: white;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.main-faq1-answer {
+  fill: white;
+  color: white;
+  font-family: "Poppins";
+}
+.main-list-item2 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-faq2-question {
+  fill: white;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.main-text01 {
+  fill: white;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+}
+.main-faq2-answer {
+  fill: white;
+  color: white;
+  font-family: "Poppins";
+}
+.main-list-item3 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-faq3-question {
+  fill: white;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.main-faq3-answer {
+  fill: white;
+  color: white;
+  font-family: "Poppins";
+}
+.main-list-item4 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-faq4-question {
+  fill: white;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.main-faq4-answer {
+  fill: white;
+  color: white;
+  font-family: "Poppins";
+}
+.main-list-item5 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-faq5-question {
+  fill: white;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.main-faq5-answer {
+  fill: white;
+  color: white;
+  font-family: "Poppins";
+}
+.main-list-item6 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-faq5-question1 {
+  fill: white;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.main-faq5-answer1 {
+  fill: white;
+  color: white;
+  font-family: "Poppins";
+}
+.main-list-item7 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-faq5-question2 {
+  fill: white;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.main-faq5-answer2 {
+  fill: white;
+  color: white;
+  font-family: "Poppins";
+}
+.main-list-item8 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-faq5-question3 {
+  fill: white;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.main-faq5-answer3 {
+  fill: white;
+  color: white;
+  font-family: "Poppins";
+}
+.main-link {
+  text-decoration: underline;
+}
+.main-list-item9 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-faq5-question4 {
+  fill: white;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.main-faq5-answer4 {
+  fill: white;
+  color: white;
+  font-family: "Poppins";
+}
+.main-list-item10 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-faq5-question5 {
+  fill: white;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.main-faq5-answer5 {
+  fill: white;
+  color: white;
+  font-family: "Poppins";
+}
+.main-root-class-name {
+  fill: black;
+  color: black;
+}
+@media(max-width: 991px) {
+  .main-max-width {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 767px) {
+  .main-list {
+    gap: var(--dl-space-space-twounits);
+  }
+}
+
+.images-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.images-image {
+  width: 292px;
+  height: 451px;
+  object-fit: cover;
+}
+.images-image1 {
+  width: 320px;
+  height: 447px;
+  object-fit: cover;
+}
+.images-image2 {
+  width: 299px;
+  height: 446px;
+  object-fit: cover;
+}
+
+
+.footer-container {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+}
+.footer-max-width {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+.footer-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-heading1 {
+  fill: white;
+  color: white;
+  text-align: center;
+  font-family: "Poppins";
+}
+.footer-content1 {
+  fill: white;
+  color: white;
+  text-align: center;
+  font-family: "Poppins";
+}
+.footer-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.footer-button {
+  fill: white;
+  color: white;
+  border-color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+.footer-root-class-name {
+  fill: black;
+  color: black;
+}
+
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  border-color: var(--dl-color-theme-neutral-light);
+  border-width: 0px;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("public/111355-1500w.jpg");
+  background-repeat: no-repeat;
+  background-position: top leftbottom right,top left;
+}
+.home-cta8 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
