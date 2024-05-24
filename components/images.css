@@ -1,0 +1,32 @@
+.images-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.images-image {
+  width: 216px;
+  height: 40%;
+  object-fit: cover;
+}
+.images-image1 {
+  width: 216px;
+  height: 40%;
+  object-fit: cover;
+}
+.images-image2 {
+  width: 210px;
+  height: 40%;
+  object-fit: cover;
+}
+
+@media(max-width: 991px) {
+  .images-container {
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+}
